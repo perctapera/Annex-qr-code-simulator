@@ -13,7 +13,7 @@ int dp[102][102];
         else if(wt[n-1]>w)
             return dp[n][w] = solve(w, wt, v, n-1);
     }
-
+/* int main */
     int main(){
         int n, w;
         cin >> n >> w;
